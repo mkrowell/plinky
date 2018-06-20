@@ -3,16 +3,16 @@
 After setting up a PuTTY saved session (e.g., foo), plinky can be used as follows:
 
 ```python
-	import plinky
+import plinky
 
-	# connect to a remote server using the PuTTY session named "foo"
-	plinky.start("foo")
+# connect to a remote server using the PuTTY session named "foo"
+plinky.start("foo")
 
-	# test whether there is a process listening on local port 1722
-	plinky.test_connection(1722)
+# test whether there is a process listening on local port 1722
+plinky.test_connection(1722)
 
-	# test whether there is a process listening on local port 1722
-	plinky.stop()
+# test whether there is a process listening on local port 1722
+plinky.stop()
 ```
 
 # Details
@@ -30,10 +30,10 @@ After setting up a PuTTY saved session (e.g., foo), plinky can be used as follow
 	following snippet may return `True`:
 
 ```python
-	import plinky
-	plinky.start("foo")
-	plinky.stop()
-	plinky.test_connection()
+import plinky
+plinky.start("foo")
+plinky.stop()
+plinky.test_connection()
 ```
 
 # Quirks
