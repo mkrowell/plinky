@@ -1,5 +1,4 @@
-# Usage:
-
+# Usage
 After setting up a PuTTY saved session (e.g., foo), plinky can be used as follows:
 
 ```python
@@ -35,6 +34,15 @@ plinky.start("foo")
 plinky.stop()
 plinky.test_connection()
 ```
+
+# Setting up PuTTY Session
+SSH tunnels are created by PuTTY, a free, open source SSH client, which can be obtained from the PuTTY downloads page. Once downloaded, open the configuration window. Within the configuration window, use the Category selector on the left to expand the connection node, then SSH nodes, and select the Auth pane. On the Auth pane, click the Browse button and select the private key for your remote instance.
+ 
+To set up an SSH-tunnel (i.e. port forwarding) to the database servers, map the local ports to ports on the remote instances. In the Category selector select the SSH/Tunnels pane, and enter the source and destination ports.
+
+Next, navigate to the Session pane at the top of the Category selector, and enter the Host Name you wish to connect to.
+
+Finally, give a name to the settings profile you've created in the Saved Sessions field and click Save. 
 
 # Quirks
 
