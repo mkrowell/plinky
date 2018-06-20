@@ -8,13 +8,6 @@
 .. moduleauthor:: Jason Thorpe and Maura Rowell <mkrowell@uw.edu>
 '''
 
-# usage:
-#-- connection_test(1722)
-#-- start_plink('MPG-AWS-Cloud1')
-#-- connection_test(1722)
-#-- stop_plink()
-#-- connection_test(1722)
-# --------------------------------------------------------------------------------
 
 from subprocess import  Popen, PIPE
 from socket import socket,AF_INET,SOCK_STREAM
