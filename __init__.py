@@ -3,7 +3,7 @@
 .. module:: plinky
     :language: Python Version 2.7
     :platform: Windows 10
-    :synopsis: manage SSH nonnections with Python
+    :synopsis: manage SSH connections with Python
 
 .. moduleauthor:: Jason Thorpe and Maura Rowell <mkrowell@uw.edu>
 '''
